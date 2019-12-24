@@ -21,3 +21,20 @@ Executar o comando abaixo no terminal:
 pip install flask
 ```
 Este comando se encarregará de instalar as dependências necessárias para executar os projetos
+
+## 3 - Iniciando um app
+
+Primeiramente é necessário criar uma variável de ambiente com o nome do arquivo apontado como "principal" da aplicação. Exemplo:
+```
+set FLASK_APP=hello.py
+```
+
+O comando abaixo permite que a aplicação seja executada em modo DEBUG:
+```
+FLASK_ENV=development
+```
+
+Em seguida, para executar a aplicação:
+```
+flask run
+```
